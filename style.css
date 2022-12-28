@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+h1 {
+    text-shadow: 10px 6px 15px #000;
+}
+
+#todo-list {
+    width: 1000px;
+    text-align: center;
+    border: 10px solid #b3b30d;
+    border-radius: 10px;
+    box-shadow: 10px 6px 25px #000;
+    margin-bottom: 50px;
+}
+
+button {
+    font-size: 30px;
+    background: #b3b30d;
+    border: none;
+    
+    box-shadow: 10px 6px 25px #000;
+}
